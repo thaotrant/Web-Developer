@@ -1,0 +1,41 @@
+/* selector {
+    property: value;
+} */
+
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url("bgImage.jpg");
+    background-size: cover;
+}
+h2 + p :hover{
+    color: red;
+    text-align: center;
+    border: 5px solid;
+    cursor: pointer;
+}
+p {
+    color: blue !important;
+}
+p {
+    color: pink;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+.myclass :last-child :first-child{
+    color: purple;
+    border: dashed 5px;
+}
+.active {
+    border: solid 5px yellow;
+}
+#div1 {
+    background-color: tomato;
+}
+#div2 {
+    background-color: rgba(255, 0, 0, 0.2);
+}
